@@ -24,7 +24,6 @@ ul {
 
 .header-nav-logo {
   text-transform: uppercase;
-  text-decoration: none;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
@@ -50,4 +49,82 @@ ul {
 
 .header-address-menu-item {
   color: #434455;
+}
+
+/* Main Top */
+
+.main-top {
+  background-color: #2e2f42;
+  color: #fff;
+}
+
+.main-top-title {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 1.12px;
+  text-align: center;
+}
+
+.main-top-button {
+  border-radius: 4px;
+  background-color: #4d5ae5;
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 0.64px;
+}
+
+/* Main Advantages  */
+
+.main-advantages-item-title {
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.4px;
+  text-align: center;
+}
+
+/* Main Our Team */
+
+.main-our-team {
+  background-color: #f4f4fd;
+}
+
+.main-our-team-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.main-our-team-item {
+  border-radius: 0px 0px 4px 4px;
+  background-color: #fff;
+}
+
+.main-our-team-item-title {
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.4px;
+  text-align: center;
+}
+
+.main-our-team-item-image {
+  width: 264px;
+}
+
+.main-our-team-item-text {
+  text-align: center;
+}
+
+/* Main Our Portfolio */
+
+.main-our-portfolio-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+  text-align: center;
 }
