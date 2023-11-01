@@ -4,7 +4,7 @@ body {
   background-color: #fff;
   font-size: 16px;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.32px;
 }
 
@@ -16,7 +16,7 @@ h3 {
 h2 {
   font-size: 36px;
   font-weight: 700;
-  line-height: 40px;
+  line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
   text-align: center;
@@ -47,7 +47,7 @@ ul {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 21px;
+  line-height: 1.16;
   letter-spacing: 0.54px;
 }
 
@@ -67,8 +67,23 @@ ul {
   color: #2e2f42;
 }
 
+.header-nav-menu-link:hover,
+.header-nav-menu-link:focus {
+  color: #404bbf;
+}
+
+.header-nav-menu-link:active {
+  color: #404bbf;
+  text-decoration: underline;
+}
+
 .header-address-menu-item {
   color: #434455;
+}
+
+.header-address-menu-item:hover,
+.header-address-menu-item:focus {
+  color: #404bbf;
 }
 
 /* Main Top */
@@ -80,7 +95,7 @@ ul {
 .main-top-title {
   font-size: 56px;
   font-weight: 700;
-  line-height: 60px;
+  line-height: 1.07;
   letter-spacing: 1.12px;
   text-align: center;
   color: #fff;
@@ -92,6 +107,12 @@ ul {
   color: #fff;
   font-weight: 500;
   letter-spacing: 0.64px;
+}
+
+.main-top-button:hover,
+.main-top-button:focus {
+  background-color: #404bbf;
+  cursor: pointer;
 }
 
 /* Main Advantages  */
@@ -109,10 +130,6 @@ ul {
 
 .main-our-team-item-title {
   text-align: center;
-}
-
-.main-our-team-item-image {
-  width: 264px;
 }
 
 .main-our-team-item-text {
