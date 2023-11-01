@@ -39,10 +39,6 @@ ul {
 
 /* Header */
 
-/* .header {
-  border-bottom: 1px solid #e7e9fc;
-} */
-
 .header-logo {
   text-transform: uppercase;
   font-family: "Raleway", sans-serif;
@@ -104,7 +100,6 @@ ul {
 }
 
 .main-top-button {
-  /* border-radius: 4px; */
   background-color: #4d5ae5;
   color: #fff;
   font-weight: 500;
@@ -127,7 +122,6 @@ ul {
 }
 
 .main-our-team-item {
-  /* border-radius: 0px 0px 4px 4px; */
   background-color: #fff;
 }
 
